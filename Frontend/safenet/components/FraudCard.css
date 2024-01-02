@@ -1,0 +1,65 @@
+.fraud-card{
+    margin:20px;
+    width: 600px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 9px 12px 20px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    height: 260px;
+
+}
+
+.fraud-image{
+    width:40%;
+    height : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.fraud-image img{
+    padding: 10px;
+    width: 90%;
+    height: 90%;
+    object-fit:fill;
+    
+}
+
+.fraud-content{
+    width:60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.fraud-head{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-top: 10px;
+}
+
+.fraud-summary{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    margin-top: 15px;
+    margin-right: 5px;
+
+}
+.fraud-link{
+    color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
