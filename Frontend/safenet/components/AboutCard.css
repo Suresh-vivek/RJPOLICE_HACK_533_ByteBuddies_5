@@ -1,0 +1,41 @@
+.acard-outer{
+    width: 370px;
+    height: 200px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 9px 12px 20px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+
+}
+.acard-image{
+    width:90%;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.aimage{
+    width:60px;
+    height: 60px;
+    object-fit: contain;
+
+}
+.acard-heading{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color:#1E1E1E;
+}
+
+.acard-para{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#7C7C7C;
+
+}

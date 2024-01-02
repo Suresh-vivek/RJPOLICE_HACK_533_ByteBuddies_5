@@ -14,7 +14,6 @@
 .another {
   height: 930px;
   width: 100%;
-  
 }
 
 .header-text {
@@ -23,8 +22,8 @@
   width: 50%;
   height: 80%;
   margin-left: 40px;
-  
-  margin-top:60px;
+
+  margin-top: 60px;
 }
 .header-heading {
   margin-top: 100px;
@@ -57,14 +56,33 @@
   color: #2a8e53;
 }
 
-.header-image{
+.header-image {
   width: 40%;
   height: 90%;
- 
+
   margin-left: 300px;
   margin-top: 50px;
 }
 
-.image-container{
+.image-container {
+}
 
+.slant-rect1 {
+  width: 390px;
+  height: 15px;
+  position: absolute;
+  top: 838px;
+  left: 120px;
+  transform: rotate(3.6deg);
+  background-color: #ffcc00;
+}
+
+.slant-rect2 {
+  width: 290px;
+  height: 15px;
+  position: absolute;
+  top: 883px;
+  left: 920px;
+  transform: rotate(3.6deg);
+  background-color: #EB6B69;
 }

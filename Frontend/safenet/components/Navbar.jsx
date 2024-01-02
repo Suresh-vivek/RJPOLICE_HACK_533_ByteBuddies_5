@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import PrimaryButton from "./PrimaryButton";
 import { useState } from "react";
 import Logo2 from "../src/assets/safeNetLogo.png";
+import { Link as ScrollLink } from 'react-scroll';
+
 
 function Navbar() {
   const [fix, setFix] = useState(false);
@@ -27,10 +29,17 @@ function Navbar() {
         </Link>
       </div>
 
+
+     
       <div className="nav-links">
-        <a href="#" className="nav-alinks" id={fix ? "fixed-links" : ""}>
+
+
+      <ScrollLink to="about" smooth={true} duration={500}>
+      <a href="#" className="nav-alinks" id={fix ? "fixed-links" : ""}>
           About
         </a>
+      </ScrollLink>
+       
 
         <Link to="resources">
           <a href="#" className="nav-alinks" id={fix ? "fixed-links" : ""}>
@@ -59,12 +68,15 @@ function Navbar() {
       </div>
 
       <div className="nav-right">
+
+      
         <a
           href="#"
           className="nav-alinks"
           id={fix ? "fixed-feedback" : "nav-feedback"}
         >
-          Feedback
+          <ScrollLink to="feedback" smooth={true} duration={500}>Feedback</ScrollLink>
+          
         </a>
 
         <div className="nav-comm">

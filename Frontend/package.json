@@ -2,6 +2,7 @@
   "dependencies": {
     "react-iframe": "^1.8.5",
     "react-router-dom": "^6.21.1",
+    "react-scroll": "^1.9.0",
     "react-type": "^0.1.0",
     "react-typed": "^1.2.0"
   }
