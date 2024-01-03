@@ -1,0 +1,115 @@
+
+.cyber-bg{
+    position: absolute;
+    top:20px;
+    left: 90px;
+    width: 90%;
+    height: 60%;
+
+    z-index: -1;
+   
+
+}
+.rbackground{
+    height: 100%;
+    width: 100%;
+    background-color: #eef0f2;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -2;
+}
+
+.cyber{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.rcard-outer{
+    width: 1300px;
+    height:500px;
+    
+
+    margin-top: 400px;
+
+    margin-left: 270px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+
+}
+.rcards{
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    border-top : 20px solid #112244 ;
+    border-left: 2px solid #eae7e7;
+    border-right: 2px solid #eae7e7;
+    border-bottom: 2px solid #eae7e7;
+    box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.rcard-image{
+    width: 128px;
+    height :128px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.rimage{
+    width: 100%;    
+    height: 100%;
+    object-fit: contain;
+}
+
+.rtitle{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.rpara{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #afafaf;
+    margin-top:15px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 80%;
+
+}
+
+.rbutton{
+    border-radius: 10px;
+    border: 3px solid var(--primary-color);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.rbtext{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+#contacts{
+    margin-top:27px;
+}

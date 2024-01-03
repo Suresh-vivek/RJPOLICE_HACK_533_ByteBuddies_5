@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import "./Stories.css";
 import About from "./About";
 import FraudCard from "../components/FraudCard";
+import Search from "../components/Search";
 
 function Stories() {
   const [selectedSection, setSelectedSection] = useState("articles");
@@ -56,16 +57,7 @@ function Stories() {
         </div>
       )}
 
-      {selectedSection === "stories" && (
-        <FraudCard
-          imageLink=
-            "https://static.toiimg.com/thumb/imgsize-123456,msid-105725745,width-300,resizemode-4/105725745.jpg"
-          
-          headline="Over Rs 22 crore duped in 5,785 Cyber crimes in Bhopal this year"
-          summary="Bhopal cyber-crime branch received 5,800 cyber-crime complaints this year, with criminals siphoning over Rs 22.62 crore from residents. Miscreants may"
-          link="https://timesofindia.indiatimes.com/city/bhopal/over-rs-22-crore-duped-in-5785-cyber-crimes-in-bhopal-this-year/articleshow/106224603.cms"
-        />
-      )}
+      {selectedSection === "stories" && <Search />}
     </div>
   );
 }

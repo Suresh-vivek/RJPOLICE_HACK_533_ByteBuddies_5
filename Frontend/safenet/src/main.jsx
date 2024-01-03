@@ -7,6 +7,7 @@ import Resources from "../pages/Resources.jsx";
 import Contact from "../pages/Contact.jsx";
 import Community from "../pages/Community.jsx";
 import Stories from "../pages/Stories.jsx";
+import CustomerCare from "../pages/subpages/CustomerCare.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/community" element={<Community />} />
         <Route path="/stories" element={<Stories />} />
+        <Route path="/resources/customer-care" element={<CustomerCare />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>

@@ -1,0 +1,18 @@
+
+.space1{
+    height: 120px;
+    width: 100%;
+}
+
+.customer-text{
+    font-size: 50px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin-top: 10px;
+   
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
