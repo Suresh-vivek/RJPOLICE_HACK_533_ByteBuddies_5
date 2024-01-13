@@ -9,6 +9,7 @@ import Exten from "../src/assets/extension.png";
 import AboutCard from "../components/AboutCard";
 import ExtensionIllus from "../src/assets/extension_illus.png";
 import PrimaryButton from "../components/PrimaryButton";
+import CheckIcon from "../src/assets/checkIcon.png";
 
 function About() {
   return (
@@ -51,6 +52,12 @@ function About() {
           image={Community}
           heading="Community"
           text="Discover real stories within our community, sharing experiences, reporting scams, and collectively building a stronger defense against cyber threats."
+        />
+
+        <AboutCard
+          image={CheckIcon}
+          heading="Check Tool"
+          text="Welcome to our Website Authenticity Check tool! In a vast digital landscape, it's essential to ensure the reliability of websites you visit."
         />
       </div>
 

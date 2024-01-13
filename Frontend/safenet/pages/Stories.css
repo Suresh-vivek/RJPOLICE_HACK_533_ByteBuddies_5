@@ -40,3 +40,12 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
+.loader-animation{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+
+}

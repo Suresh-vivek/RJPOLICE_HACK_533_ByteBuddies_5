@@ -16,3 +16,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.chead{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+    background-color: azure;
+    width: 60%;
+}
+
+#cval{
+    color: #2a484e;
+}

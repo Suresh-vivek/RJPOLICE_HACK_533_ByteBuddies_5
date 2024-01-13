@@ -53,6 +53,20 @@ function Navbar() {
           </a>
         </Link>
 
+        
+
+        <Link to="community">
+          <a href="#" className="nav-alinks" id={fix ? "fixed-links" : ""}>
+            Community
+          </a>
+        </Link>
+        <ScrollLink to="check" smooth={true} duration={500}>
+          {" "}
+          <a href="#" className="nav-alinks" id={fix ? "fixed-links" : ""}>
+            Check
+          </a>{" "}
+        </ScrollLink>
+
         <Link to="contact">
           {" "}
           <a href="#" className="nav-alinks" id={fix ? "fixed-links" : ""}>
@@ -60,11 +74,7 @@ function Navbar() {
           </a>{" "}
         </Link>
 
-        <Link to="community">
-          <a href="#" className="nav-alinks" id={fix ? "fixed-links" : ""}>
-            Community
-          </a>
-        </Link>
+
       </div>
 
       <div className="nav-right">

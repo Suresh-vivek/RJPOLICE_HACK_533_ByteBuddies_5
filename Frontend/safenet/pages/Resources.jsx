@@ -18,6 +18,7 @@ function Resources() {
       <div className="rbackground"></div>
 
       <div className="rcard-outer">
+        {/* Educational resource cards */}
         <div className="rcards">
           <div className="rcard-image">
             <img src={Educational} alt="educational" className="rimage" />
@@ -29,11 +30,15 @@ function Resources() {
             cybersecurity education hub.
           </span>
 
-          <div className="rbutton">
-            <span className="rbtext">Explore</span>
-          </div>
+          <Link to="educational-resources">
+            {" "}
+            <div className="rbutton">
+              <span className="rbtext">Explore</span>
+            </div>
+          </Link>
         </div>
 
+        {/* Additional resource cards */}
         <div className="rcards">
           <div className="rcard-image">
             <img src={Additional} alt="additional" className="rimage" />
@@ -45,11 +50,14 @@ function Resources() {
             essential resources.
           </span>
 
-          <div className="rbutton" id="contacts">
-            <span className="rbtext">Explore</span>
-          </div>
+          <Link to="additional-resources">
+            <div className="rbutton" id="contacts">
+              <span className="rbtext">Explore</span>
+            </div>
+          </Link>
         </div>
 
+        {/* Customer care resource cards */}
         <div className="rcards">
           <div className="rcard-image">
             <img src={Customer} alt="customer" className="rimage" />

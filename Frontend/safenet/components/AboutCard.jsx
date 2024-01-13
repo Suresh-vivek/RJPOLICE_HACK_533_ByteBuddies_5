@@ -7,7 +7,7 @@ function AboutCard(props) {
     <div className="acard-outer">
       <div className="acard-image">
         <div className="aimage">
-          <img src={props.image} alt="about-card" />
+          <img src={props.image} alt="about-card" className="aimage" />
         </div>
       </div>
 

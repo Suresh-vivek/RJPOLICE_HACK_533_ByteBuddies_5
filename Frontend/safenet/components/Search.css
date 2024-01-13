@@ -4,7 +4,9 @@
   margin: 30px;
   gap: 20px;
 
-  height: 40px;
+  height: 120px;
+  background-color: #d8bfd8;
+  justify-content: center;
 }
 
 .search {

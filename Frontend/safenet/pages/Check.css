@@ -1,0 +1,148 @@
+.check-outer{
+    width: 100vw;
+    min-height: 1000px;
+  
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+
+.check-illus{
+    width:30%;
+    height:80%;
+    margin-top: 100px;
+    
+}
+
+.check-content{
+    width: 50%;
+    height: 80%;
+    margin-top: 100px;
+  
+    margin-left: 50px;
+}
+
+.check-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+    
+    height: 200px;
+}
+
+.check-heading{
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    color: #1e1e1e;
+    width: 90%;
+}
+
+.check-para{
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    color: #7c7c7c;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.check-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#url{
+    padding-left: 20px;
+}
+
+.check-btn{
+    margin-left: 20px;
+    height: 45px;
+    margin-top: 12px;
+    width:110px;
+    background-color: var(--primary-button-color);
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    border:none;
+    border-radius: 5px;
+}
+
+.api-response{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.domain{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+    display: flex;
+    justify-self: start;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color:#f0f0f0;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+    width: 600px;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.extracted-data{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    height: 400px;
+    width: 600px;
+    border: 2px solid #d3d3d3;
+    padding-left:20px ;
+
+}
+.data{
+    margin-top: 10px;
+    width: 180px;
+  
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color:#918d8d;
+}
+
+.data-outer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.value{
+    margin-top: 10px;
+    width: 400px;
+  
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color:#000000;
+
+}
+
+.loading-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-top: 250px;
+}

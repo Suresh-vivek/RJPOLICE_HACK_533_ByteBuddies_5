@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import "./Homepage.css";
 import About from "./About";
 import Feedback from "../components/Feedback";
+import Check from "./Check";
 
 function Homepage() {
   return (
@@ -11,7 +12,9 @@ function Homepage() {
       <Navbar />
       <Header />
       <About />
+      <Check />
       <Feedback />
+   
     </div>
   );
 }

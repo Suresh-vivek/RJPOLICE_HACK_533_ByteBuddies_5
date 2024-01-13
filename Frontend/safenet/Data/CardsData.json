@@ -1,0 +1,154 @@
+{
+    "phishing":{
+        "head1":"Phishing Attacks: How to Identify & Avoid Phishing Scams",
+        "text1" :"A Phishing attack can be a death blow for businesses that don't take the necessary precautions. Not only is the top-line affected...",
+        "url1":"https://www.loginradius.com/blog/identity/phishing-for-identity/",
+
+        "head2":"The 5 Most Common Types of Phishing Attack",
+        "text2":"Practically every business in the world is vulnerable to phishing. According to Proofpoint’s 2022 State of the Phish Report...",
+        "url2": "https://www.itgovernance.eu/blog/en/the-5-most-common-types-of-phishing-attack",
+
+
+        "head3":"9 Examples of Social Engineering Attacks",
+        "text3":"In no particular order, here are nine common cyber threats that leverage social engineering tactics to gain access to sensitive.....",
+        "url3":"https://terranovasecurity.com/blog/examples-of-social-engineering-attacks/",
+
+        "head4":"The 5 Most Expensive Phishing Scams of all Time",
+        "text4":"The five attacks described here required little sophistication on behalf of the attackers but enabled them to steal tens of millions of dollars....",
+        "url4":"https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-phishing/the-top-5-phishing-scams-of-all-times/"
+        }  ,
+
+        "malicious":{
+            "head1":"What Is a Malicious URL? (And How You Can Avoid Them)",
+            "text1":"In simple words, a malicious URL is a clickable link that directs users to a malicious or otherwise fraudulent web page.....",
+            "url1":"https://cheapsslsecurity.com/blog/what-is-a-malicious-url/" ,
+
+
+            "head2":"HOW TO DETECT A MALICIOUS WEBSITE",
+            "text2": "A malicious website is a site that an attacker has designed to trick users into (a) downloading malicious software....",
+            "url2":"https://www.sikich.com/insight/how-to-detect-a-malicious-website/",
+
+            "head3":"What is a malicious URL and how do we protect against them?",
+            "text3":"Malicious URLs are links created to promote scams or fraudulent activity. They are persuasive in nature, intending to.....",
+            "url3":"https://experteq.com/what-is-a-malicious-url-and-how-do-we-protect-against-them/"
+        },
+
+       "safe": {
+           "head1":"8 Tips for Safe Web Browsing and Accessing the Internet",
+           "text1":"Hackers attempt breaking into a system every 39 seconds. The last thing that you would want is for them....",
+           "url1":"https://medium.com/geekculture/8-tips-for-safe-web-browsing-and-accessing-the-internet-953c4e9e47c0",
+
+           "head2":"Why IoT Security Is Important for Your Home Network",
+           "text2":"The Internet of Things (IoT) adds so much to your home comforts. By using smart devices that connect to the ......",
+           "url2":"https://www.kaspersky.com/resource-center/threats/secure-iot-devices-on-your-home-network",
+
+
+           "head3":"TOP 12 WAYS TO STOP BEING TRACKED ONLINE",
+           "text3":"Everyone leaves a digital fingerprint when they use the internet and web tracking is a method of....",
+           "url3":"https://www.ghostery.com/blog/ways-to-stop-being-tracked"
+
+        },
+
+        "book":{
+            "head1":"15 Cybersecurity Books That Redefine the Digital Age",
+            "text1":"Cybersecurity is a complex, ever-evolving field that demands both respect and understanding. Through years...",
+            "url1":"https://thectoclub.com/news/cybersecurity-books/",
+
+            "head2":"The Art of Invisibility ",
+            "url2":"https://digtvbg.com/files/books-for-hacking/Kevin%20Mitnic/The%20Art%20of%20Invisibility%20-%20The%20World%27s%20Most%20Famous%20Hacker%20Teaches%20You%20How%20to%20Be%20Safe%20in%20the%20Age%20of%20Big%20Brother%20and%20Big%20Data%20by%20Kevin%20Mitnick.pdf",
+            "text2":"Kevin Mitnick, the world's most famous hacker, teaches you easy cloaking and counter-measures for citizens and consumers in the age of Big Brother and Big Data.",
+
+            "head3":"Ghost in the Wires",
+            "url3":"https://bibliocecifi.files.wordpress.com/2017/05/ghost-in-the-wires-kevin-mitnick.pdf",
+            "text3":"My instinct for finding a way around barriers and safeguards began very early. At about age one and a half, I found a way to climb out of my.....",
+
+            "head4":"Cybersecurity for Dummies",
+            "url4":"https://content.e-bookshelf.de/media/reading/L-18089174-ce2fed4ace.pdf",
+            "text4":"Humanity’s reliance on technology, however, has also created enormous risks. It seems that not a day goes by without some new story emerging of a data breach..."
+        },
+
+        "shopping":{
+            "head1":"10 Cybersecurity Tips for Online Shopping",
+            "url1":"https://www.safewise.com/blog/10-cybersecurity-tips-for-online-shopping/",
+            "text1":"Thankfully, the era of online shopping makes getting the perfect gift a whole lot easier. But before you embark on an online shopping...",
+
+            "head2":"The Ultimate Guide to Protecting Your Online Identity",
+            "text2":"The internet has become an integral part of our daily lives, and with the convenience it provides comes the potential risk of cyber attacks...",
+            "url2":"https://www.linkedin.com/pulse/ultimate-guide-protecting-your-online-identity-from-hackers/",
+
+
+            "head3":"Security for Personal Devices",
+            "text3":"The following are best practices for protecting smartphones, personal computers, tablets, and other devices from data loss or theft....",
+            "url3":"https://its.weill.cornell.edu/guides/security-for-personal-devices",
+
+            "head4":"https://www.wikihow.com/Identify-Email-Spoofing",
+            "text4":"Email spoofing happens when someone sends an email to you that appears to be from another person. It's usually used .....",
+            "url4":"https://www.wikihow.com/Identify-Email-Spoofing"
+
+
+        },
+
+        "infographic":{
+            "head1":"Don’t Get Hooked: How to Recognize and Avoid Phishing Attacks ",
+            "text1":"We created an infographic to help spread awareness of one of the greatest and most common threats to computer users of all kinds...",
+            "url1":"https://www.digitalguardian.com/blog/dont-get-hooked-how-recognize-and-avoid-phishing-attacks-infographic",
+
+            "head2":"9 Key Internet Safety Tips and Notes (Infographic)",
+            "text2":"eCommerce has seen a massive rise over the past 12 months, with the COVID-19 lockdowns forcing most of us to find new ways to shop...",
+            "url2":"https://www.socialmediatoday.com/news/9-key-internet-safety-tips-and-notes-infographic/602101/",
+
+            "head3":"Cybercrime Infographics: Illustrations Of The Past, Present, And Future Threats ",
+            "text3":"The 2019 Cybersecurity Almanac, co-published by Cisco and Cybersecurity Ventures, is a handbook containing 100 of the most pertinent data...",
+            "url3":"https://cybersecurityventures.com/cybercrime-infographic/" ,
+
+            "head4":"Infographic: 7 Tips to Stay Safe While Shopping Online",
+            "text4":" The internet has become an integral part of our daily lives, and with the convenience it provides comes the potential risk of cyber attacks...",
+            "url4":"https://www.synovus.com/personal/resource-center/financial-safety-and-security/infographic-7-tips-to-stay-safe-while-shopping-online/"
+        },
+
+        "videos":{
+            "head1":"Cyber Dost Youtube Channel",
+            "text1":"This Youtube channel by the Indian government's Ministry of Electronics and Information Technology has a variety of short, informative videos..",
+            "url1":"https://www.youtube.com/c/CyberDostI4c",
+
+            "head2":"Computer Emergency Response Team (CERT-In) ",
+            "text2":"The Indian Computer Emergency Response Team (CERT-In) also has a Youtube channel with educational videos on cybersecurity in Hindi...",
+            "url2":"https://www.youtube.com/watch?v=Yta5ckB-lM0",
+
+            "head3":"Credit Card Fraud के हुए शिकार? तुरंत उठाएं ये कदम ",
+            "text3":"This financial education platform has a series of videos in Hindi on how to avoid online scams and frauds. They cover topics like fake loan schemes...",
+            "url3":"https://www.youtube.com/watch?v=6M6R6GkzIP8",
+
+            "text4":"This official Youtube channel offers concise videos in Hindi on digital literacy and online safety",
+            "head4":"Digital India Youtube Channel",
+            "url4":"https://www.youtube.com/@DigitalIndiaofficial",
+
+            "head5":"Fake Loan Schemes",
+            "text5":"As part of National Cyber Security Awareness Month with a theme See Yourself in Cyber let us pledge to enhance cyber security by....",
+            "url5":"https://www.youtube.com/watch?v=j3MjOFzypJ4"
+
+
+
+    
+            
+        },
+
+        "quiz":{
+            "head1":"Can you spot when you’re being phished?",
+            "text1":"dentifying phishing can be harder than you think. Phishing is an attempt to trick you into giving up your personal information by..",
+            "url1":"https://phishingquiz.withgoogle.com/",
+
+            "head2":"How much do you know about browsing safely? An online quiz.",
+            "text2":"Browsing safely is a matter of being aware of a few simple rules and options. Take our online quiz and discover how to stay safe online!",
+            "url2":"https://www.recharge.com/blog/en-gb/ie/how-much-do-you-know-about-browsing-safely",
+
+            "head3":"Test your scam awareness",
+            "text3":"Understanding how scams work is the best way to protect yourself. Take this quiz to test your knowledge about how to recognise and deal with scams..",
+            "url3":"https://www.consumerprotection.govt.nz/resources/quizzes/scams-and-fraud-quiz/app/index.html",
+
+            "head4":"Online Safety Quiz",
+            "text4":"Does your child know how to stay safe online? Test their knowledge with this online quiz.",
+            "url4":"https://www.nspcc.org.uk/keeping-children-safe/online-safety/quiz/"
+        }
+    
+}
