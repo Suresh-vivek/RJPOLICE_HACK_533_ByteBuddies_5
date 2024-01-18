@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Safe Browsing Checker</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="logo">
+        <img src="icon.png" alt="logo" />
+      </div>
+
+      <div class="check">
+        <button id="checkSafetyButton">Check URL</button>
+        <p id="result"></p>
+      </div>
+
+      <hr />
+
+      <div class="Customer_data">
+        <label for="numberInput" class="field-name"
+          >Enter Helpline Number:</label
+        >
+        <div>
+          <input type="text" id="numberInput" />
+          <button id="checkNumberButton">Check</button>
+        </div>
+        <p id="number-data"></p>
+      </div>
+
+      <hr />
+
+      <div class="report">
+        <button class="report-button" id="reportFraudButton">
+          Report Fraud
+        </button>
+      </div>
+
+
+
+      <div id="acknowledgmentMessage" class="hidden">
+        <p>Form submitted! Acknowledgment sent to the user.</p>
+      </div>
+      
+
+      <div id="reportForm" class="hidden">
+        <form
+          id="fraudForm"
+          action="https://formspree.io/f/mqkrkpen"
+          method="POST"
+        >
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required />
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required />
+
+          <label for="contactNo">Contact No.:</label>
+          <input type="text" id="contactNo" name="contactNo" required />
+
+          <label for="fraudType">Fraud Type:</label>
+          <select id="fraudType" name="fraudType">
+            <option value="phishing">Phishing</option>
+            <option value="financialFraud">Financial Fraud</option>
+            <option value="identityTheft">Identity Theft</option>
+            <option value="other">Other</option>
+            <!-- Add more options as needed -->
+          </select>
+
+          <label for="fraudDescription">Fraud Description:</label>
+          <textarea
+            id="fraudDescription"
+            name="fraudDescription"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit" value="Submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
