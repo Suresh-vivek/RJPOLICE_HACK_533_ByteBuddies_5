@@ -7,7 +7,7 @@ const FraudCard = ({ headline, summary, link, image_link }) => {
   return (
     <div className="fraud-card">
       <div className="fraud-image">
-        <img src={image_link || TOI} />
+        <img src={TOI && image_link} />
       </div>
       <div className="fraud-content">
         <span className="fraud-head">{headline}</span>

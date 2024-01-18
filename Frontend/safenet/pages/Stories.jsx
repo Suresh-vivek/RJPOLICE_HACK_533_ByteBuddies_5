@@ -6,6 +6,7 @@ import About from "./About";
 import FraudCard from "../components/FraudCard";
 import Search from "../components/Search";
 import LoadingAnimation from "../components/LoadingAnimation";
+import TestApi from "./TestApi";
 
 function Stories() {
   const [selectedSection, setSelectedSection] = useState("articles");
@@ -30,7 +31,6 @@ function Stories() {
     };
 
     fetchData();
-   
   }, []);
 
   return (
@@ -54,15 +54,19 @@ function Stories() {
         </span>
       </div>
 
-
-      {loading ?<div className="loader-animation"><LoadingAnimation/></div>:selectedSection === "articles" && (
-        <div className="fraud-cards-container">
-          {fraudsData.map((fraud, index) => (
-            <FraudCard key={index} {...fraud} />
-          ))}
+      {loading ? (
+        <div className="loader-animation">
+          <LoadingAnimation />
         </div>
+      ) : (
+        selectedSection === "articles" && (
+          <div className="fraud-cards-container">
+            {fraudsData.map((fraud, index) => (
+              <FraudCard key={index} {...fraud} />
+            ))}
+          </div>
+        )
       )}
-      
 
       {selectedSection === "stories" && <h1>Will be Implementing soon</h1>}
     </div>

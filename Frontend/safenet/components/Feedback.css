@@ -1,6 +1,6 @@
 .feed-outer {
   width: 100vw;
-  height: 700px;
+  height: 900px;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: row;
